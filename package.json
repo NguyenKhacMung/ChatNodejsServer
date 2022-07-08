@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/index.js",
+    "heroku-postbuild": "npm run build",
     "server": "nodemon dist/index.js",
     "build": "tsc"
   },
